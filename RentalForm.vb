@@ -1,7 +1,7 @@
 ﻿Option Explicit On
 Option Strict On
 Option Compare Binary
-
+'test
 Imports System
 
 Public Class RentalForm
