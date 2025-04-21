@@ -159,7 +159,7 @@ Partial Class RentalForm
         'NameTextBox
         '
         Me.NameTextBox.Location = New System.Drawing.Point(213, 51)
-        Me.NameTextBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.NameTextBox.Margin = New System.Windows.Forms.Padding(4)
         Me.NameTextBox.Name = "NameTextBox"
         Me.NameTextBox.Size = New System.Drawing.Size(132, 22)
         Me.NameTextBox.TabIndex = 0
@@ -167,7 +167,7 @@ Partial Class RentalForm
         'AddressTextBox
         '
         Me.AddressTextBox.Location = New System.Drawing.Point(213, 86)
-        Me.AddressTextBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.AddressTextBox.Margin = New System.Windows.Forms.Padding(4)
         Me.AddressTextBox.Name = "AddressTextBox"
         Me.AddressTextBox.Size = New System.Drawing.Size(132, 22)
         Me.AddressTextBox.TabIndex = 1
@@ -175,7 +175,7 @@ Partial Class RentalForm
         'CityTextBox
         '
         Me.CityTextBox.Location = New System.Drawing.Point(213, 120)
-        Me.CityTextBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CityTextBox.Margin = New System.Windows.Forms.Padding(4)
         Me.CityTextBox.Name = "CityTextBox"
         Me.CityTextBox.Size = New System.Drawing.Size(132, 22)
         Me.CityTextBox.TabIndex = 2
@@ -183,7 +183,7 @@ Partial Class RentalForm
         'StateTextBox
         '
         Me.StateTextBox.Location = New System.Drawing.Point(213, 154)
-        Me.StateTextBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.StateTextBox.Margin = New System.Windows.Forms.Padding(4)
         Me.StateTextBox.Name = "StateTextBox"
         Me.StateTextBox.Size = New System.Drawing.Size(132, 22)
         Me.StateTextBox.TabIndex = 3
@@ -191,7 +191,7 @@ Partial Class RentalForm
         'ZipCodeTextBox
         '
         Me.ZipCodeTextBox.Location = New System.Drawing.Point(213, 189)
-        Me.ZipCodeTextBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ZipCodeTextBox.Margin = New System.Windows.Forms.Padding(4)
         Me.ZipCodeTextBox.Name = "ZipCodeTextBox"
         Me.ZipCodeTextBox.Size = New System.Drawing.Size(132, 22)
         Me.ZipCodeTextBox.TabIndex = 4
@@ -199,7 +199,7 @@ Partial Class RentalForm
         'BeginOdometerTextBox
         '
         Me.BeginOdometerTextBox.Location = New System.Drawing.Point(213, 223)
-        Me.BeginOdometerTextBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.BeginOdometerTextBox.Margin = New System.Windows.Forms.Padding(4)
         Me.BeginOdometerTextBox.Name = "BeginOdometerTextBox"
         Me.BeginOdometerTextBox.Size = New System.Drawing.Size(132, 22)
         Me.BeginOdometerTextBox.TabIndex = 5
@@ -207,7 +207,7 @@ Partial Class RentalForm
         'EndOdometerTextBox
         '
         Me.EndOdometerTextBox.Location = New System.Drawing.Point(213, 258)
-        Me.EndOdometerTextBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.EndOdometerTextBox.Margin = New System.Windows.Forms.Padding(4)
         Me.EndOdometerTextBox.Name = "EndOdometerTextBox"
         Me.EndOdometerTextBox.Size = New System.Drawing.Size(132, 22)
         Me.EndOdometerTextBox.TabIndex = 6
@@ -215,7 +215,7 @@ Partial Class RentalForm
         'DaysTextBox
         '
         Me.DaysTextBox.Location = New System.Drawing.Point(213, 292)
-        Me.DaysTextBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.DaysTextBox.Margin = New System.Windows.Forms.Padding(4)
         Me.DaysTextBox.Name = "DaysTextBox"
         Me.DaysTextBox.Size = New System.Drawing.Size(132, 22)
         Me.DaysTextBox.TabIndex = 7
@@ -226,9 +226,9 @@ Partial Class RentalForm
         Me.OdometerGroupbox.Controls.Add(Me.MilesradioButton)
         Me.OdometerGroupbox.Font = New System.Drawing.Font("Courier New", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.OdometerGroupbox.Location = New System.Drawing.Point(12, 334)
-        Me.OdometerGroupbox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.OdometerGroupbox.Margin = New System.Windows.Forms.Padding(4)
         Me.OdometerGroupbox.Name = "OdometerGroupbox"
-        Me.OdometerGroupbox.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.OdometerGroupbox.Padding = New System.Windows.Forms.Padding(4)
         Me.OdometerGroupbox.Size = New System.Drawing.Size(416, 103)
         Me.OdometerGroupbox.TabIndex = 8
         Me.OdometerGroupbox.TabStop = False
@@ -238,7 +238,7 @@ Partial Class RentalForm
         '
         Me.KilometersradioButton.AutoSize = True
         Me.KilometersradioButton.Location = New System.Drawing.Point(27, 64)
-        Me.KilometersradioButton.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.KilometersradioButton.Margin = New System.Windows.Forms.Padding(4)
         Me.KilometersradioButton.Name = "KilometersradioButton"
         Me.KilometersradioButton.Size = New System.Drawing.Size(130, 24)
         Me.KilometersradioButton.TabIndex = 1
@@ -250,7 +250,7 @@ Partial Class RentalForm
         Me.MilesradioButton.AutoSize = True
         Me.MilesradioButton.Checked = True
         Me.MilesradioButton.Location = New System.Drawing.Point(27, 30)
-        Me.MilesradioButton.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.MilesradioButton.Margin = New System.Windows.Forms.Padding(4)
         Me.MilesradioButton.Name = "MilesradioButton"
         Me.MilesradioButton.Size = New System.Drawing.Size(80, 24)
         Me.MilesradioButton.TabIndex = 0
@@ -264,9 +264,9 @@ Partial Class RentalForm
         Me.DiscountGroupbox.Controls.Add(Me.AAAcheckbox)
         Me.DiscountGroupbox.Font = New System.Drawing.Font("Courier New", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.DiscountGroupbox.Location = New System.Drawing.Point(470, 334)
-        Me.DiscountGroupbox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.DiscountGroupbox.Margin = New System.Windows.Forms.Padding(4)
         Me.DiscountGroupbox.Name = "DiscountGroupbox"
-        Me.DiscountGroupbox.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.DiscountGroupbox.Padding = New System.Windows.Forms.Padding(4)
         Me.DiscountGroupbox.Size = New System.Drawing.Size(320, 103)
         Me.DiscountGroupbox.TabIndex = 9
         Me.DiscountGroupbox.TabStop = False
@@ -276,7 +276,7 @@ Partial Class RentalForm
         '
         Me.Seniorcheckbox.AutoSize = True
         Me.Seniorcheckbox.Location = New System.Drawing.Point(27, 69)
-        Me.Seniorcheckbox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Seniorcheckbox.Margin = New System.Windows.Forms.Padding(4)
         Me.Seniorcheckbox.Name = "Seniorcheckbox"
         Me.Seniorcheckbox.Size = New System.Drawing.Size(261, 24)
         Me.Seniorcheckbox.TabIndex = 1
@@ -287,7 +287,7 @@ Partial Class RentalForm
         '
         Me.AAAcheckbox.AutoSize = True
         Me.AAAcheckbox.Location = New System.Drawing.Point(27, 34)
-        Me.AAAcheckbox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.AAAcheckbox.Margin = New System.Windows.Forms.Padding(4)
         Me.AAAcheckbox.Name = "AAAcheckbox"
         Me.AAAcheckbox.Size = New System.Drawing.Size(221, 24)
         Me.AAAcheckbox.TabIndex = 0
@@ -297,7 +297,7 @@ Partial Class RentalForm
         'CalculateButton
         '
         Me.CalculateButton.Location = New System.Drawing.Point(171, 468)
-        Me.CalculateButton.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.CalculateButton.Margin = New System.Windows.Forms.Padding(4)
         Me.CalculateButton.Name = "CalculateButton"
         Me.CalculateButton.Size = New System.Drawing.Size(100, 28)
         Me.CalculateButton.TabIndex = 10
@@ -307,7 +307,7 @@ Partial Class RentalForm
         'ClearButton
         '
         Me.ClearButton.Location = New System.Drawing.Point(293, 468)
-        Me.ClearButton.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ClearButton.Margin = New System.Windows.Forms.Padding(4)
         Me.ClearButton.Name = "ClearButton"
         Me.ClearButton.Size = New System.Drawing.Size(100, 28)
         Me.ClearButton.TabIndex = 11
@@ -317,7 +317,7 @@ Partial Class RentalForm
         'ExitButton
         '
         Me.ExitButton.Location = New System.Drawing.Point(544, 468)
-        Me.ExitButton.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ExitButton.Margin = New System.Windows.Forms.Padding(4)
         Me.ExitButton.Name = "ExitButton"
         Me.ExitButton.Size = New System.Drawing.Size(100, 28)
         Me.ExitButton.TabIndex = 13
@@ -400,7 +400,7 @@ Partial Class RentalForm
         'SummaryButton
         '
         Me.SummaryButton.Location = New System.Drawing.Point(421, 468)
-        Me.SummaryButton.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.SummaryButton.Margin = New System.Windows.Forms.Padding(4)
         Me.SummaryButton.Name = "SummaryButton"
         Me.SummaryButton.Size = New System.Drawing.Size(100, 28)
         Me.SummaryButton.TabIndex = 12
@@ -410,7 +410,7 @@ Partial Class RentalForm
         'TotalMilesTextBox
         '
         Me.TotalMilesTextBox.Location = New System.Drawing.Point(664, 47)
-        Me.TotalMilesTextBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TotalMilesTextBox.Margin = New System.Windows.Forms.Padding(4)
         Me.TotalMilesTextBox.Name = "TotalMilesTextBox"
         Me.TotalMilesTextBox.ReadOnly = True
         Me.TotalMilesTextBox.Size = New System.Drawing.Size(176, 22)
@@ -421,7 +421,7 @@ Partial Class RentalForm
         'MileageChargeTextBox
         '
         Me.MileageChargeTextBox.Location = New System.Drawing.Point(664, 90)
-        Me.MileageChargeTextBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.MileageChargeTextBox.Margin = New System.Windows.Forms.Padding(4)
         Me.MileageChargeTextBox.Name = "MileageChargeTextBox"
         Me.MileageChargeTextBox.ReadOnly = True
         Me.MileageChargeTextBox.Size = New System.Drawing.Size(176, 22)
@@ -432,7 +432,7 @@ Partial Class RentalForm
         'DayChargeTextBox
         '
         Me.DayChargeTextBox.Location = New System.Drawing.Point(664, 130)
-        Me.DayChargeTextBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.DayChargeTextBox.Margin = New System.Windows.Forms.Padding(4)
         Me.DayChargeTextBox.Name = "DayChargeTextBox"
         Me.DayChargeTextBox.ReadOnly = True
         Me.DayChargeTextBox.Size = New System.Drawing.Size(176, 22)
@@ -443,7 +443,7 @@ Partial Class RentalForm
         'TotalDiscountTextBox
         '
         Me.TotalDiscountTextBox.Location = New System.Drawing.Point(664, 169)
-        Me.TotalDiscountTextBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TotalDiscountTextBox.Margin = New System.Windows.Forms.Padding(4)
         Me.TotalDiscountTextBox.Name = "TotalDiscountTextBox"
         Me.TotalDiscountTextBox.ReadOnly = True
         Me.TotalDiscountTextBox.Size = New System.Drawing.Size(176, 22)
@@ -454,7 +454,7 @@ Partial Class RentalForm
         'TotalChargeTextBox
         '
         Me.TotalChargeTextBox.Location = New System.Drawing.Point(664, 209)
-        Me.TotalChargeTextBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TotalChargeTextBox.Margin = New System.Windows.Forms.Padding(4)
         Me.TotalChargeTextBox.Name = "TotalChargeTextBox"
         Me.TotalChargeTextBox.ReadOnly = True
         Me.TotalChargeTextBox.Size = New System.Drawing.Size(176, 22)
@@ -576,7 +576,7 @@ Partial Class RentalForm
         Me.Controls.Add(Me.AddressLabel)
         Me.Controls.Add(Me.NameLabel)
         Me.MainMenuStrip = Me.TopMenuStrip
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "RentalForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Acme Car Rental Service"
